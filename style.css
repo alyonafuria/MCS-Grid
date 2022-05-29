@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body {
+  background-color: #F2F2F2;
+}
+
+/*=== Logo ===*/
+.logo h1 {
+  margin: 0;
+}
+
+.logo__link {
+  color: #324759;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+/*=== End logo ===*/
+
+/*=== Menu ===*/
+.main-menu ul {
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: end;
+}
+
+.main-menu__item {
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.main-menu__item a {
+  color: #324759;
+  text-decoration: none;
+}
+
+.main-menu__item a:hover {
+  text-decoration: underline;
+  color: #657A8C;
+}
+/*=== End menu ===*/
+
+/*=== Latest posts ===*/
+.latest-posts {
+  border: 1px solid #657A8C;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.latest-posts h3 {
+  margin-top: 0;
+}
+
+.latest-posts-menu {
+  padding: 0;
+}
+
+.latest-posts-menu__item {
+  list-style-type: none;
+  margin-top: 0.5rem;
+}
+
+.latest-posts-menu__item a {
+  color: #8C764D;
+}
+
+.latest-posts-menu__item a:hover {
+  color: #BFB26F;
+}
+/*=== End latest posts ===*/
+/*=== Main content ===*/
+.content-area h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.content-area p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+/*=== End main content ===*/
